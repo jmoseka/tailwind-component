@@ -16,9 +16,15 @@ code {
     monospace;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   min-width: 300px;
   font-family: 'Barlow Semi Condensed', 'sans-serif';
+  overflow: scroll;
 }
 
 .col-span-1-5 {
@@ -26,5 +32,5 @@ body {
 }
 
 .grid-box {
-  @apply flex flex-col justify-center items-center rounded-md;
+  @apply flex flex-col justify-center items-center rounded-md p-9;
 }

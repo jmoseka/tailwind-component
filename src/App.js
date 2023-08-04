@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-strongBlue">
+    <div className="App md:h-screen bg-strongBlue">
       {/* <!-- Global Container --> */}
-      <div class="container h-screen px-3 max-w-7xl">
+      <div class="container px-3 max-w-7x">
 
         <ul class="desc text-white pt-6 flex flex-col items-start ">
           <li>12 grid / boxes </li>
@@ -17,9 +17,9 @@ function App() {
         </ul>
 
         {/* <!--Grid container--> */}
-        <div class="grid-container mt-8  m-auto h-full md:h-4/6 max-w-3xl">
+        <div class="grid-container mt-8  m-auto md:h-4/6 max-w-3xl ">
 
-          <div class="h-full w-full py-2 mx-auto max-w-4xl text-white text-center
+          <div class=" w-full py-2 mx-auto max-w-4xl text-white text-center
      grid grid-cols-2 grid-rows-12 md:grid-cols-5 md:grid-rows-4 gap-2">
 
 
