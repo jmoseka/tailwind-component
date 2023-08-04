@@ -15,3 +15,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  min-width: 300px;
+  }
+  
+  .col-span-1-5 {
+      grid-column: span 1.5;
+  }
+  
+  .box-one {
+  @apply flex flex-col justify-center items-center rounded-md
+  }
+  
