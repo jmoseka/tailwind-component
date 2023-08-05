@@ -17,7 +17,7 @@ function App() {
         </ul>
 
         {/* <!--Grid container--> */}
-        <div class="grid-container bg-orange-300 mt-8 m-auto max-w-3xl ">
+        <div class="grid-container mt-8 m-auto max-w-3xl ">
 
           <div class=" w-full py-2 mx-auto max-w-4xl text-white text-center
      grid grid-cols-2 grid-rows-10 md:grid-cols-5 md:grid-rows-4 gap-2">
