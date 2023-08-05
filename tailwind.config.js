@@ -9,11 +9,18 @@ module.exports = {
     lg: '976px',
     xl: '1440px',
   },
+
+
   theme: {
     extend: {
       fontFamily: {
         sans: ['Barlow Semi Condensed', 'sans-serif'],
       },
+
+      gridTemplateRows: {
+        '10': 'repeat(10, minmax(0, 1fr))',
+      },
+    
       colors: {
         strongBlue: '#141728',
         lightBlue: 'hsl(233, 100%, 69%)',

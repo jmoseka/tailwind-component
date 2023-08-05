@@ -1,6 +1,8 @@
 # tailwind-components 
 This project showcases my grid layout skills using Tailwind CSS
 
+### 🔴 [Live link](https://tailwindcomponents1.netlify.app/)
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/jmoseka/tailwind-component`

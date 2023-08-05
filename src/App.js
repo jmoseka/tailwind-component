@@ -10,7 +10,7 @@ function App() {
         <ul class="desc text-white pt-6 flex flex-col items-start ">
           <li>12 grid / boxes </li>
           <li> Desktop version- 5rows 4 columns </li>
-          <li>Mobile version - 12rows 2 columns</li>
+          <li>Mobile version - 10rows 2 columns</li>
           <li>Source code <a class="underline underline-offset-2
            hover:text-pink-500 decoration-solid font-semibold" target='_blank' href="https://github.com/jmoseka/tailwind-component/blob/main/src/App.js" rel="noreferrer">here</a></li>
 
@@ -20,7 +20,7 @@ function App() {
         <div class="grid-container mt-8  m-auto md:h-4/6 max-w-3xl ">
 
           <div class=" w-full py-2 mx-auto max-w-4xl text-white text-center
-     grid grid-cols-2 grid-rows-12 md:grid-cols-5 md:grid-rows-4 gap-2">
+     grid grid-cols-2 md:grid-cols-5 grid-rows-10 gap-2">
 
 
             <div class="grid-box bg-blue-500 row-span-2 md:col-span-1 md:row-span-2">
