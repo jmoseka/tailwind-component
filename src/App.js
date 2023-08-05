@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App md:h-screen bg-strongBlue">
       {/* <!-- Global Container --> */}
-      <div class="container px-3 max-w-7x">
+      <div class="container px-3 max-w-7x mx-auto">
 
         <ul class="desc text-white pt-6 flex flex-col items-start ">
           <li>12 grid / boxes </li>
@@ -17,10 +17,10 @@ function App() {
         </ul>
 
         {/* <!--Grid container--> */}
-        <div class="grid-container mt-8 m-auto max-w-3xl ">
+        <div class="grid-container mt-8 m-auto max-w-3xl">
 
-          <div class=" w-full py-2 mx-auto max-w-4xl text-white text-center
-     grid grid-cols-2 grid-rows-10 md:grid-cols-5 md:grid-rows-4 gap-2">
+          <div class="w-full py-2 mx-auto max-w-4xl text-white text-center
+     grid grid-cols-2 grid-rows-10 md:grid-cols-5 md:grid-rows-4 gap-2 md:h-96">
 
 
             <div class="grid-box bg-blue-500 row-span-2 md:col-span-1 md:row-span-2">
