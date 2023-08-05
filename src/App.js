@@ -40,7 +40,6 @@ function App() {
 
             <div class="grid-box bg-red-500 row-span-2 col-span-1  md:col-span-1 md:row-span-2">
               <div class="hidden md:block">row-span-2</div>
-              <div class="hidden md:block">col-span-1</div>
             </div>
 
 
